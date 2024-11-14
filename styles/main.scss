@@ -1,0 +1,361 @@
+.body {
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #eae7e7;
+}
+
+.navbar {
+    background-color: #055E9E !important;
+}
+
+.navbar-brand {
+    img {
+        max-height: 75px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #fff;
+            font-weight: lighter;
+            &:hover {
+                color: #17a2b8 !important;
+            }
+            &.active {
+                color: #fff !important;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-right: 28px !important;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: #17a2b8;
+    color: #fff;
+    &:hover {
+        background-color: #0a8167;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .body {
+        margin: 0;
+    }
+    .navbar {
+        margin: 0;
+    }
+    .header {
+        img {
+            display: none;
+        }
+    }
+}
+
+.btn-ikut-kelas {
+    background-color: #FF9800;
+    color: #fff;
+    padding: 10px 13px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-ikut-kelas:hover {
+    background-color: #EFAF52;
+    color: #fff;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+@media only screen and(min-width:294px) and (max-width:320) {
+    body {
+        width: 294;
+    }
+}
+
+.judul {
+    color: #000;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-populer {
+    display: flex;
+    justify-content: center;
+}
+
+.section-populer h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 46px;
+    margin-bottom: 52px;
+}
+
+.card {
+    // awal memotong teks
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    //akhir memotong teks
+    height: 370px;
+    margin: 20px;
+    img {
+        height: 236px;
+        width: 212px;
+    }
+    .card-title {
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+        font-size: 15px;
+        font-weight: normal;
+        text-align: left;
+        text-decoration: none;
+    }
+    .card-text {
+        color: #A59F9F;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .badge {
+        font-size: 9px;
+        padding: 7px 10px;
+        font-weight: lighter;
+        color: #000;
+    }
+    .harga {
+        font-size: 14px;
+    }
+    hr {
+        margin-bottom: 3px;
+    }
+    .btn-ikut-kursus {
+        background-color: #17a2b8;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #fff;
+        padding: 10px 15px;
+        &:hover {
+            background-color: #0a8167;
+            box-shadow: 5px 4px 20px rgb(102, 226, 123);
+        }
+    }
+    .badge-premium {
+        background-color: #68BFFD;
+        color: #000;
+        font-size: 9px;
+        padding: 5px 5px;
+        border-radius: 2px;
+        margin-right: 0;
+    }
+    .badge-gratis {
+        background-color: #FFBBAB;
+        color: #000;
+        font-size: 9px;
+        padding: 5px 5px;
+        border-radius: 2px;
+        margin-right: 0;
+    }
+}
+
+.section-dukungan-kami {
+    width: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    .container {
+        column-count: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .kolom {
+            img {
+                margin: 15px;
+                justify-content: center;
+            }
+            width: 300px;
+            height: 200px;
+            flex-wrap: wrap;
+            margin: 10px 25px;
+        }
+    }
+}
+
+.kategori-kelas {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 148px;
+    align-content: center;
+    border: 1px solid #1951E3;
+    border-radius: 7px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    &:hover {
+        text-decoration: none;
+        background-color: #07319D;
+        color: #fff;
+        box-shadow: 5px 14px 70px rgb(91, 81, 226);
+    }
+    &:active {
+        text-decoration: none;
+        background-color: #07319D;
+        color: #fff;
+    }
+}
+
+.dukungan-kami {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.patner {
+    justify-content: center;
+    align-items: center;
+    img {
+        max-width: 100px;
+        max-height: 105px;
+        margin: 20px;
+    }
+}
+
+.li .list-unstyled img {
+    vertical-align: middle;
+    border-style: none;
+    height: 50%;
+}
+
+.events {
+    //video responsive
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.section-footer {
+    color: #fff;
+    background-color: #055E9E;
+    a {
+        color: #beb7b7;
+    }
+}
+
+.section-detail-kelas {
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-body {
+        color: #000;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    //video responsive
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+    //Untuk membuat embed Youtube Posisi di tengah
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.section-detail-kelas {
+    .tools {
+        ul li {
+            color: #5f5c5c;
+            margin: 8px 8px;
+        }
+        border: solid 1px #c5bebe;
+        border-radius: 7px;
+        font-family: 'Poppins',
+        sans-serif;
+        h4 {
+            color: #4774E9;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+.btn-ikuti-kelas {
+    margin-top: 20px;
+    align-self: stretch;
+    background-color: #17a2b8;
+    ;
+    color: #fff;
+    padding: 10px 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.btn-ikuti-kelas:hover {
+    background-color: #0a8167;
+    color: #fff;
+}
+
+.btn-silabus {
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    height: 45px;
+    text-align: left;
+    color: #3f3e3e;
+}
+
+.sukses {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #07319D;
+}

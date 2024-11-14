@@ -1,0 +1,195 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: verdana;
+}
+.awal{
+   background-color: #095048;
+   width: 100%; 
+   height: 116px;
+   color: white;
+}
+.awal h2{
+   background-color: #095048;
+   width: 100%; 
+   height: 116px;
+   color: white;
+}
+
+.logo img{
+   float: left;
+   padding-top: 10px;
+   padding-left: 30px;
+   width: 12%;
+   text-align: center;
+}
+.menu{
+   margin-left: 800px;
+   padding-top: 27px;
+}
+.menu ul li{
+   list-style: none;
+   display: inline-block;
+   margin-right: 50px;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: white;
+
+}
+.home{
+   background-color: #126D63;
+   height: 250px;
+   text-align: center;
+   color: white;
+   padding-top: 200px;
+}
+.home img{
+   height: 250px;
+}
+
+
+/*Style produk*/
+.box-produk{
+   text-align: center;
+   color: #095048;
+   align-content: center;
+   margin-top: 50px;
+}
+.box-1, box-2 {
+   float: left;
+   padding-left: 80px;
+   text-align: center;
+   
+}
+.box-produk h3, p{
+   margin-top: 10px;
+   margin-left: 200px;
+   margin-bottom: 13px;
+   padding: 0px 20px;
+}
+.price {
+   color: red;
+   font-weight: bold;
+}
+
+
+/*Style Contact*/
+.box-medsos img{
+   width: 100px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 80px;
+   vertical-align: middle;
+   
+}
+.box-medsos{
+   text-align: center;
+   color: #4d4d4d;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+/*Style footer*/
+footer{
+    background-color: #095048;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%; 
+    height: 20px;
+}
+
+/*Style login*/
+@import url('https://fonts.googleapis.com/css2?family=Poopins&display=swap')
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family:'Poopins', sans-serif;
+}
+body{
+   margin: 0;
+   min-height: 100fx;
+   width: 100;
+   background: #095048;
+}
+.container{
+position: relative;
+top: 50%;
+left: 0;
+transform: translate(-50,-50%);
+width: 100%;
+height: 145%;
+background: #fff;
+border-radius: 0%;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.container .registration{
+display: none;
+}
+#check:checked.registration{
+display: block;
+}
+#check:checked.login{
+display: none;
+}
+#check{
+display: none;
+}
+.container .form{
+padding: 2rem;
+}
+.form header{
+font-size: 2rem;
+font-weight: 500;
+text-align: center;
+margin-bottom: 1.5rem;
+}
+.form input{
+height: 60px;
+width: 100%;
+padding: 0 15px;
+font-size: 17px;
+margin-bottom: 1.3rem;
+border: 1px solid #ddd;
+border-radius: 6px;
+outline: none;
+}
+.form input:focus{
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.form a{
+font-size: 16px;
+color:  #095048;
+text-decoration: none;
+}
+.form a:hover{
+text-decoration: underline;
+}
+.form input .button{
+color: #fff;
+background: #095048;
+font-size: 1.2rem;
+font-weight: 500;
+letter-spacing: 1px;
+margin-top: 1.7rem;
+cursor: pointer;
+transition: 0.4s;
+}
+.form input .button:hover{
+background: #095048;
+}
+.signup{
+font-size: 17px;
+text-align: center;
+}
+.signup label{
+color: #095048;
+cursor: pointer;
+}
+.signup label:hover{
+text-decoration: underline;
+}
