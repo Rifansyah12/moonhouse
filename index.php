@@ -18,7 +18,7 @@ include 'koneksi.php';
 <body>
     <div class="container-fluid">
         <nav class="row navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-white">
-         <h1>MOONHOUSE.SCN</h1>
+         <h1>ASH MOONHOUS</h1>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
                 <span class="navbar-toggler-icon"></span>
             </button>
